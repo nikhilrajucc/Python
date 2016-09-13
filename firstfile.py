@@ -1,10 +1,6 @@
 def load(self,filename="input.txt"):
     FILE = open(filename)
     s= FILE.read()
-#    print s
-#    with open(filename,"r") as f:
-#        for line in f:
-#            print(line.strip())
     fizz = s.split()[0]
     buzz = s.split()[1]
     e = s.split()[2]
